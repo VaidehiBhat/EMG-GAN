@@ -28,7 +28,8 @@ from keras.utils import plot_model
 from keras.layers import Input, Dense, Reshape, Flatten, Dropout, Lambda
 from keras.layers import BatchNormalization, Activation, ZeroPadding2D
 from keras.layers import Input, Dense, Flatten, Activation, Dropout, LSTM, RepeatVector, TimeDistributed, ConvLSTM2D, GRU
-from keras.layers import Add, Subtract, Multiply, ReLU, ThresholdedReLU, Concatenate, GlobalAveragePooling1D, GlobalMaxPooling1D, GlobalAvgPool1D
+from keras.layers import Add, Subtract, Multiply, ReLU, Concatenate, GlobalAveragePooling1D, GlobalMaxPooling1D, GlobalAvgPool1D
+from tensorflow.keras.layers import ThresholdedReLU
 from keras.layers.wrappers import Bidirectional
 from keras.layers.convolutional import Conv1D, MaxPooling1D, UpSampling1D
 from keras.layers.advanced_activations import LeakyReLU
