@@ -33,7 +33,7 @@ from tensorflow.keras.layers import ThresholdedReLU
 from tensorflow.keras.layers import Bidirectional
 from keras.layers.convolutional import Conv1D, MaxPooling1D, UpSampling1D
 from keras.layers.advanced_activations import LeakyReLU
-from keras.layers.convolutional import UpSampling2D, Conv2D
+from tensorflow.keras.layers import UpSampling2D, Conv2D
 from keras.models import Sequential, Model
 import keras.backend as K
 import warnings 
